@@ -16,26 +16,26 @@
             <ul>
                 <div>
                     <li>
-                        <a href="">Home</a>
+                        <a href="{{ route('home') }}">Home</a>
                     </li>
                     <li>
-                        <a href="">Sobre</a>
+                        <a href="{{ route('sobre') }}">Sobre</a>
                     </li>
                     <li>
-                        <a href="">Planos</a>
+                        <a href="{{ route('planos') }}">Planos</a>
                     </li>
                     <li>
-                        <a href="">Serviços</a>
+                        <a href="{{ route('servicos') }}">Serviços</a>
                     </li>
                     <li>
-                        <a href="">Cobertura</a>
+                        <a href="{{ route('cobertura') }}">Cobertura</a>
                     </li>
                     <li>
-                        <a href="">Contato</a>
+                        <a href="{{ route('contato') }}">Contato</a>
                     </li>
                 </div>
                 <li>
-                    <a href="" class="assinante"><i class="fa-regular fa-user"></i> Area do Assinante</a>
+                    <a href="assinante" class="assinante"><i class="fa-regular fa-user"></i> Area do Assinante</a>
                 </li>
             </ul>
         </nav>

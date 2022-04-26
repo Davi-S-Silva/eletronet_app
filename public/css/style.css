@@ -26,7 +26,7 @@ body {
 
 
 .content_page {
-    height: 500px;
+    height: auto;
 }
 
 @media screen and (min-width: 300px) {
@@ -144,6 +144,7 @@ body {
         width: 80%;
         flex-direction: column;
         justify-content: space-between;
+        text-transform: uppercase;
     }
 
     .area_footer ul {
@@ -160,6 +161,7 @@ body {
 
     .area_footer ul li.menu_footer ul {
         flex-direction: column;
+        padding: 30px 0;
         /* background-color: #00b4f5; */
     }
 
@@ -172,12 +174,71 @@ body {
         /* background-color: #00b4f5; */
     }
 
+    #planos {
+        /* background-color: #030ba6; */
+        background-image: url('http://localhost:8000/images/bg_planos.jpg');
+        /* background-size: auto; */
+        /*C:\xampp\htdocs\projetos\eletronet_app\public\images\bg_planos.jpg*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .planos {
+        background-color: #ffcc00;
+        margin: 30px;
+        padding: 5px;
+        border-radius: 5px;
+        color: #030ba6;
+        height: auto;
+    }
+
+    .planos header {
+        /* background-color: #030ba6; */
+        text-align: center;
+        font-weight: bold;
+        font-size: 25pt;
+        line-height: 20px;
+        padding: 10px;
+    }
+
+    .planos header p:first-child {
+        font-size: 50pt;
+    }
+
+    .planos article {
+        background-color: #fff;
+        color: #373435;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .planos article p {
+        margin: 20px;
+    }
+
+    .planos a {
+        background-color: #e9e504;
+        width: fit-content;
+
+        z-index: 100;
+        bottom: 0;
+        position: absolute;
+        margin-bottom: -20px;
+        border-radius: 50px;
+        /* min-width: 100px; */
+        padding: 5px 10px;
+    }
 
     .area_footer, .area_footer a {
         color: #fff;
     }
 
     .rodape_footer {
+        margin: 0;
         text-align: center;
         padding: 5px;
     }

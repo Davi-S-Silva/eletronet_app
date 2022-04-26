@@ -30,7 +30,11 @@
             @include('includes.header')
         </div>
         <div class="content_page">
-
+            @yield('home')
+            @yield('contato')
+            @yield('sobre')
+            @yield('cobertura')
+            @yield('registro')
         </div>
         <div class="footer_page">
             @include('includes.footer')
