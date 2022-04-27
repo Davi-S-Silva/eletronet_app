@@ -1,4 +1,4 @@
-* {
+*, ul, li {
     padding: 0px;
     margin: 0px;
     box-sizing: content-box;
@@ -41,6 +41,7 @@ body {
     .header_mobile {
         display: flex;
     }
+
 }
 
 @media screen and (min-width: 600px) {
@@ -177,6 +178,10 @@ body {
     #planos {
         /* background-color: #030ba6; */
         background-image: url('http://localhost:8000/images/bg_planos.jpg');
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        /* background-color: #131e52; */
+        /* background-position: 50%; */
         /* background-size: auto; */
         /*C:\xampp\htdocs\projetos\eletronet_app\public\images\bg_planos.jpg*/
         display: flex;
@@ -184,14 +189,24 @@ body {
         justify-content: center;
     }
 
+    #planos figure {
+        background-color: #fff;
+        width: 100%;
+    }
+
+    #planos figure img {
+        width: 100%;
+    }
+
     .planos {
         background-color: #ffcc00;
         margin: 30px;
-        padding: 5px;
-        border-radius: 5px;
+        padding: 3px;
+        border-radius: 15px;
         color: #030ba6;
         height: auto;
     }
+
 
     .planos header {
         /* background-color: #030ba6; */
@@ -204,6 +219,7 @@ body {
 
     .planos header p:first-child {
         font-size: 50pt;
+        margin-top: 20px;
     }
 
     .planos article {
@@ -214,26 +230,34 @@ body {
         align-items: center;
         text-align: center;
         position: relative;
+        border-radius: 0 0 15px 15px;
     }
 
     .planos article p {
         margin: 20px;
+        font-size: 20pt;
+        font-weight: bold;
+    }
+
+    .planos article ul {
+        margin-bottom: 25px;
     }
 
     .planos a {
-        background-color: #e9e504;
+        background-color: #ffcc00;
         width: fit-content;
-
         z-index: 100;
         bottom: 0;
         position: absolute;
         margin-bottom: -20px;
         border-radius: 50px;
-        /* min-width: 100px; */
+        min-width: 100px;
         padding: 5px 10px;
+        font-weight: bold;
+        color: #030ba6;
     }
 
-    .area_footer, .area_footer a {
+    .area_footer {
         color: #fff;
     }
 
@@ -242,4 +266,5 @@ body {
         text-align: center;
         padding: 5px;
     }
+
 }
