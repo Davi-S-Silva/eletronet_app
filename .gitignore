@@ -2,7 +2,11 @@
 /public/hot
 /public/storage
 /storage/*.key
+<<<<<<< HEAD
 /vendor
+=======
+vendor
+>>>>>>> parent of 87b5415 (subir vendor)
 .env
 .env.backup
 .phpunit.result.cache
