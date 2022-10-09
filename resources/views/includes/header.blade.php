@@ -3,13 +3,13 @@
     <div class="area_topo">
         <div class="cabecalho_topo">
             <figure>
-                <img src="{{ asset('images/logo.png') }}" alt="">
+                <a href="{{route('home')}}"><img src="{{ asset('images/logo.png') }}" alt=""></a>
             </figure>
             <ul>
-                <li><a href=""><i class="fa-regular fa-envelope"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-whatsapp"></i> (81)98872-1029</a></li>
+                <li><a href="mailto:eletronetsocorro@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+                <li><a href="https://www.facebook.com/eletronetsocorroofc" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/eletronetsocorro" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https:wa.me/5581988721029" target="_blank"><i class="fa-brands fa-whatsapp"></i> (81)98872-1029</a></li>
             </ul>
         </div>
         <nav>
@@ -24,9 +24,9 @@
                     <li>
                         <a href="{{ route('planos') }}">Planos</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="{{ route('servicos') }}">Serviços</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="{{ route('cobertura') }}">Cobertura</a>
                     </li>
@@ -35,7 +35,7 @@
                     </li>
                 </div>
                 <li>
-                    <a href="assinante" class="assinante"><i class="fa-regular fa-user"></i> Area do Assinante</a>
+                    <a href="assinante" class="assinante"><i class="fa-regular fa-user"></i> Área do Assinante</a>
                 </li>
             </ul>
         </nav>

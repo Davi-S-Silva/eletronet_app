@@ -13,7 +13,7 @@ a {
 }
 
 h1 {
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 body {
@@ -124,14 +124,23 @@ body {
     .area_topo nav ul li a {
         padding: 5px 10px;
         font-weight: bold;
+        float: left;
         /* text-transform: uppercase; */
         /* color: blue; */
     }
-
-    .area_topo nav ul li a.assinante {
-        color: #00b4f5;
+    .area_topo nav ul li:hover{
+        background-color: #04a8e93b;
+        border-radius: 50px;
     }
-
+    .area_topo nav ul li a.assinante {
+        color: #00f;
+        background-color: #ffcc00;
+        border-radius: 50px;
+    }
+    .area_topo nav ul li a.assinante:hover{
+        background-color: #04a8e93b;
+        color: #fff;
+    }
     .footer_site {
         background-color: #030ba6;
     }
@@ -174,7 +183,59 @@ body {
         margin: 0 10px;
         /* background-color: #00b4f5; */
     }
-
+    #servicos .header, #planos .header{
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+    #servicos h1, #servicos h2{
+        text-align: left;
+        /* background-color: #fff; */
+        margin: 0;
+        color: #030ba6;
+        padding-left: 150px;
+    }
+    #servicos .header h3{
+        /* background-color: #030ba6; */
+        margin: 10px;
+        margin-right: 155px;
+        display: flex;
+        flex-direction: column;
+    }
+    #servicos .header h3 span, #planos .header h3 span{
+        font-size: 25pt;
+        font-weight: bold;
+        background: -webkit-linear-gradient(left,rgb(4, 0, 255), rgb(183, 2, 255),rgb(255, 102, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #servicos .header a:hover h3 span, #planos .header a:hover h3 span{
+        background: -webkit-linear-gradient(right,rgb(4, 0, 255), rgb(183, 2, 255),rgb(255, 102, 1));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    #ContentServicos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px;
+    }
+    #ContentServicos .servicos{
+        background-color: #fff;
+        margin: 25px;
+        text-align: center;
+        padding: 5px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px #999;
+    }
+    #ContentServicos .servicos i{
+        font-size: 30pt;
+        color: #ffcc00;
+        margin: 20px;
+    }
+    #ContentServicos .servicos h3{
+        font-size: 17pt;
+    }
     #planos {
         /* background-color: #030ba6; */
         background-image: url('http://localhost:8000/images/bg_planos.jpg');
@@ -186,9 +247,28 @@ body {
         /*C:\xampp\htdocs\projetos\eletronet_app\public\images\bg_planos.jpg*/
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;flex-direction: column;
+    }
+    #planos #ContentPlanos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* background-color: #030ba6; */
         justify-content: center;
     }
-
+    #planos .header h3{
+        display: flex;
+        flex-direction: column;
+    }
+    #planos div h1, #planos div h2{
+        color: #030ba6;
+        /* background-color: #ffcc00; */
+        text-align: right;
+        margin-right: 160px;
+    }
+    #planos div h3{
+        margin-left: 160px;
+    }
     #planos figure {
         background-color: #fff;
         width: 100%;
@@ -200,7 +280,7 @@ body {
 
     .planos {
         background-color: #ffcc00;
-        margin: 30px;
+        margin: 30px 5px;
         padding: 3px;
         border-radius: 15px;
         color: #030ba6;
@@ -238,7 +318,9 @@ body {
         font-size: 20pt;
         font-weight: bold;
     }
-
+    .planos article p .valor_plano{
+        font-size: 30pt;
+    }
     .planos article ul {
         margin-bottom: 25px;
     }
@@ -256,7 +338,9 @@ body {
         font-weight: bold;
         color: #030ba6;
     }
-
+    #PorqueContratar{
+        background-color: #373435;
+    }
     .area_footer {
         color: #fff;
     }
