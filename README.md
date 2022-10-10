@@ -19,6 +19,6 @@
      </li>
  </ul>
     
-Desenvolvido em php com o framwork laravel, html, css, javascript, banco de dados mysql.
-Integracao com as apis do mkauth, mikrotik, emby server e whatsapp(node.js, venom bot)
-Design do site produzido por <a href="https://www.instagram.com/leocosta.designer/">leo victor</a> 
+<p>Desenvolvido em php com o framwork laravel, html, css, javascript, banco de dados mysql.</p>
+<p>Integracao com as apis do mkauth, mikrotik, emby server e whatsapp(node.js, venom bot)</p>
+<p>Design do site produzido por <a href="https://www.instagram.com/leocosta.designer/">leo victor</a> </p>
