@@ -264,6 +264,7 @@ body {
         color: #030ba6;
         /* background-color: #ffcc00; */
         text-align: right;
+        margin: 0;
         margin-right: 160px;
     }
     #planos div h3{
