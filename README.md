@@ -1,5 +1,11 @@
 <h1>Site e Sistema da Eletronet Socorro.</h1>
 <ul>
+    <li>
+        Site
+        <ol>
+            <li>Cobertura</li>
+        </ol>
+    </li>
     <li>sistema
          <ol>
              <li>mkauth</li>
