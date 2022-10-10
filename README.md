@@ -1,5 +1,5 @@
 <h1>Site e Sistema da Eletronet Socorro.</h1>
-<img src="https://www.facebook.com/photo/?fbid=512472237552769&set=a.499054722227854](https://scontent.frec41-1.fna.fbcdn.net/v/t39.30808-6/311051347_512472230886103_4038222949262237099_n.jpg"/>
+
 <ul>
     <li>
         Site
@@ -21,4 +21,3 @@
     
 
 Layout do site produzido por leo victor
-
