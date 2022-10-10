@@ -20,4 +20,4 @@
  </ul>
     
 
-Layout do site produzido por <a href="https://www.instagram.com/leocosta.designer/">leo victor</a> 
+Design do site produzido por <a href="https://www.instagram.com/leocosta.designer/">leo victor</a> 
