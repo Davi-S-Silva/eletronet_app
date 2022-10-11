@@ -146,7 +146,7 @@ body {
     }
 
     .footer_site {
-        background-color: #030ba6;
+        {{--background-color: #030ba6;--}}
     }
 
     .area_footer {
